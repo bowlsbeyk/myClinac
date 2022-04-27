@@ -1,6 +1,7 @@
 class User < ApplicationRecord
 
   include Secured
+  #see me
 
   def is_complete?
     complete = true
